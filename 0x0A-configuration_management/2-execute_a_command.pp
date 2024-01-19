@@ -1,5 +1,5 @@
 # create a manifest that kills a process named killmenow
 exec {
-  'muckduck':
+  'pkill':
     command => '/usr/bin/pkill killmenow'
 }
