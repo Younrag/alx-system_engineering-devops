@@ -1,3 +1,5 @@
+# using puppet to make changes to the default ssh config file
+
 include stdlib
 
 file_line { 'SSH Private Key':
