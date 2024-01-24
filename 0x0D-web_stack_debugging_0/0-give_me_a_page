@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Start Apach conatining Hello Holberton
+apt-get update
 service apache2 start
