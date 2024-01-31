@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # set up haproxy
 sudo apt-get -y update
-sudo apt-get -y install 'haproxy'
+sudo apt-get -y install 'haproixy'
 cat > '/etc/haproxy/haproxy.cfg' << EOF
 frontend wolfhopkins.tech
 	bind *:80
@@ -9,8 +9,8 @@ frontend wolfhopkins.tech
 	default_backend web_servers
 backend web_servers
 	balance roundrobin
-	server web-01 34.73.58.99
-	server web-02 34.74.6.218
+	server web-01 34.239.107.19
+	server web-02 35.175.102.135
 EOF
 service haproxy reload
 service haproxy restart
