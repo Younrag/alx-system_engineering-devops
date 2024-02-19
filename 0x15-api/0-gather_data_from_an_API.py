@@ -25,4 +25,4 @@ if __name__ == "__main__":
         numberOfTasks))
 
     for completeTask in completedTasks:
-        print("\t {}".format(completeTask.get("title")))i
+        print("\t {}".format(completeTask.get("title")))
