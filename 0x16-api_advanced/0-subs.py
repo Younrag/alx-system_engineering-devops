@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Contains the function number_of_subscribers"""
 
+
 import requests
 from sys import argv
 
